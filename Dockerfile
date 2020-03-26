@@ -1,6 +1,6 @@
 FROM 'ubuntu:18.04'
 
-COPY ~/Downloads/pivotal-tc-server_4.0.11-RELEASE_all.deb /tmp
+COPY pivotal-tc-server_4.0.11-RELEASE_all.deb /tmp
 COPY openjdk-jdk-1.8.0_222-bionic.tar.gz /tmp
 COPY pivotal-tc-runtime-9_9.0.31.A-RELEASE_all.deb /tmp
 
